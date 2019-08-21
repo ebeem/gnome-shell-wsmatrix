@@ -50,9 +50,10 @@ var PrefsWidget = new GObject.Class({
 
    _getBooleans: function () {
       return [
-        'show-thumbnails',
-        'show-workspace-names',
-        'cache-popup',
+         'show-thumbnails',
+         'show-workspace-names',
+         'cache-popup',
+         'multi-monitor',
       ];
    },
 
@@ -67,7 +68,7 @@ var PrefsWidget = new GObject.Class({
 
    _getEnumerations: function () {
       return [
-        'wraparound-mode'
+         'wraparound-mode'
       ];
    },
 

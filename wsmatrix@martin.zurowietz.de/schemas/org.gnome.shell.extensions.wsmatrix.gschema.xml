@@ -41,5 +41,9 @@
       <default>'none'</default>
       <summary>Wraparound workspaces while navigating</summary>
     </key>
+    <key type="b" name="multi-monitor">
+      <default>false</default>
+      <summary>Whether to display workspace switcher on all monitors or not</summary>
+    </key>
   </schema>
 </schemalist>
